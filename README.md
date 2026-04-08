@@ -96,4 +96,16 @@ Interface planejada no Figma
 
 ---
 
+---
+
+## 💻 Como Executar
+
+```bash
+git clone https://github.com/IsaiasDevv/Projeto_Integrador_III-B.git
+cd Sistema-Task-Manager-Stickers
+npm install
+npm start
+
+---
+
 ## 📁 Estrutura do Projeto
