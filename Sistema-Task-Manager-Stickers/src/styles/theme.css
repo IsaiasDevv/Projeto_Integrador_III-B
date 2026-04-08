@@ -1,0 +1,66 @@
+/* --- CONFIGURAÇÃO GLOBAL --- */
+:root {
+  --primary: #6C63FF;
+  --background: #F4F6F8;
+}
+
+* {
+  box-sizing: border-box; /* Garante que padding não aumente o tamanho dos elementos */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--background);
+  /* Permite rolar a tela se o conteúdo for maior que o visor */
+  overflow-x: hidden; 
+  min-height: 100vh;
+}
+
+/* --- REGRAS DE RESPONSIVIDADE --- */
+@media (max-width: 850px) {
+  /* 1. Transforma menus laterais em barras superiores */
+  div[style*="width: 320px"], 
+  div[style*="width: 50%"] {
+    width: 100% !important;
+    height: auto !important;
+    flex-direction: column !important;
+    padding: 15px !important;
+    border-right: none !important;
+  }
+
+  /* 2. Faz as telas de 100vh crescerem conforme o conteúdo */
+  div[style*="height: 100vh"] {
+    height: auto !important;
+    min-height: 100vh !important;
+    flex-direction: column !important;
+  }
+
+  /* 3. Ajusta o Kanban para as colunas ficarem uma embaixo da outra */
+  div[style*="maxWidth: 850px"] {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  /* 4. Ajusta os formulários para não vazarem da tela */
+  div[style*="display: flex"][style*="marginBottom: 20px"] {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  div[style*="width: 220px"] {
+    width: 100% !important;
+    margin-bottom: 5px !important;
+  }
+
+  input {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* 5. Centraliza e ajusta os cartões brancos */
+  div[style*="backgroundColor: #FFFFFF"] {
+    max-width: 95% !important;
+    padding: 20px !important;
+  }
+}
