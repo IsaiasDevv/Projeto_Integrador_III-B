@@ -1,115 +1,99 @@
-# 🚀 Sistema Gerenciador de Tarefas
+<h1 align="center">
+🚀 Sistema Gerenciador de Tarefas
+</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280"/>
+  <img src="https://readme-typing-svg.herokuapp.com/?color=00C853&size=28&center=true&vCenter=true&width=600&lines=Projeto+Integrador+III-B;Sistema+Web+com+React;Gerenciamento+de+Tarefas;Aplicação+Real+em+Empresa"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-concluído-brightgreen?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/projeto-integrador-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/react-frontend-61DAFB?style=for-the-badge&logo=react"/>
-  <img src="https://img.shields.io/badge/javascript-ES6-yellow?style=for-the-badge&logo=javascript"/>
+  <img src="https://img.shields.io/github/repo-size/IsaiasDevv/Projeto_Integrador_III-B?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/last-commit/IsaiasDevv/Projeto_Integrador_III-B?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/status-concluído-00C853?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/frontend-react-61DAFB?style=for-the-badge&logo=react"/>
 </p>
 
 ---
 
-## 📌 Sobre o Projeto
+## 🎯 Sobre o Projeto
 
-Este projeto foi desenvolvido como parte da disciplina **Projeto Integrador III-B**, do curso de **Análise e Desenvolvimento de Sistemas**, com foco na aplicação prática dos conhecimentos acadêmicos em um contexto real.
+Aplicação web desenvolvida para gerenciamento de tarefas, criada com foco em organização, produtividade e controle de atividades.
 
-A aplicação consiste em um sistema web para gerenciamento de tarefas, criado para auxiliar uma microempreendedora do ramo de artesanato (adesivos e pinturas para unhas), permitindo maior organização, controle de prazos e melhoria da produtividade.
-
-O projeto também está vinculado à **atividade extensionista**, promovendo a integração entre teoria e prática e gerando impacto positivo em um ambiente real.
+O projeto foi desenvolvido no contexto do **Projeto Integrador III-B**, com aplicação real em uma microempresa do setor de artesanato, contribuindo diretamente para a melhoria de seus processos internos.
 
 ---
 
-## 🎯 Objetivos
+## 🧠 Problema Resolvido
 
-### 🎯 Objetivo Geral
-Desenvolver um sistema web para gerenciamento de tarefas.
+Antes do sistema:
+❌ Falta de organização  
+❌ Controle manual  
+❌ Risco de atraso  
 
-### 📍 Objetivos Específicos
-- 📌 Organizar atividades  
-- 📊 Controlar tarefas  
-- ⏰ Gerenciar prazos  
-- ⚡ Melhorar produtividade  
-- 💻 Aplicar conceitos de desenvolvimento web  
-- 📈 Utilizar práticas de gerenciamento de projetos  
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-### 💻 Front-end
-- ⚛️ React  
-- 🟨 JavaScript  
-- 🌐 HTML  
-- 🎨 CSS  
-
-### ⚙️ Ferramentas
-- 💻 Visual Studio Code  
-- 🗂️ Trello  
-- 🎨 Figma  
-
-### 💾 Armazenamento
-- 🧠 LocalStorage  
+Depois do sistema:
+✔ Organização estruturada  
+✔ Controle visual (Kanban)  
+✔ Melhor produtividade  
 
 ---
 
 ## ⚙️ Funcionalidades
 
+✨ Sistema completo com:
+
 - 👤 Cadastro de usuários  
 - 🔐 Login  
-- 📁 Criação de projetos  
-- 📝 Criação de tarefas  
-- ✏️ Edição e exclusão  
-- 📊 Acompanhamento de tarefas  
-- 📌 Quadro Kanban:
-  - A fazer  
-  - Em andamento  
-  - Concluído  
+- 📁 Organização por projetos  
+- 📝 Criação e edição de tarefas  
+- 📊 Quadro Kanban  
 - ⏰ Controle de prazos  
-- 💾 Salvamento de dados no navegador  
+- 💾 Persistência com LocalStorage  
 
 ---
 
-## 🧠 Arquitetura
+## 🛠️ Stack Tecnológica
 
-O sistema foi desenvolvido utilizando:
+<p align="center">
 
-- Componentização com React  
-- Organização modular do código  
-- Interface focada na usabilidade  
-- Separação entre lógica e visual  
+<img src="https://skillicons.dev/icons?i=react,js,html,css,git,github,vscode" />
+
+</p>
+
+---
+
+## 🧩 Arquitetura do Sistema
+
+- 📦 Componentização com React  
+- 🔄 Gerenciamento de estado  
+- 🎯 Interface centrada no usuário  
+- 🧱 Estrutura modular e escalável  
 
 ---
 
 ## 📊 Metodologia
 
-O projeto foi organizado utilizando o modelo **Kanban**, por meio da ferramenta Trello:
+Gerenciamento utilizando **Kanban com Trello**:
 
-- 📌 A fazer  
-- 🔄 Em andamento  
-- ✅ Concluído  
+📌 A fazer  
+🔄 Em andamento  
+✅ Concluído  
 
 ---
 
-## 🖼️ Protótipo
+## 🎨 Protótipo
 
-O design foi desenvolvido no Figma.
+Interface planejada no Figma  
 
-🔗 Acesse:  
-👉 (COLE AQUI O LINK DO FIGMA)
+🔗 (COLE AQUI O LINK DO FIGMA)
+
+---
+
+## 🎥 Demonstração
+
+<p align="center">
+  <img src="https://media.giphy.com/media/l3vR85PnGsBwu1PFK/giphy.gif" width="400"/>
+</p>
 
 ---
 
 ## 📁 Estrutura do Projeto
-
-Projeto_Integrador_III-B/
---├── 📁 Apresentacao-Projeto
---├── 📁 Documentacao-Projeto
---├── 📁 Gerenciamento-Trello
---├── 📁 Links-Completos
---├── 📁 Proposta-do-Projeto
---├── 📁 Prototipo-Sistema
---└── 📁 Sistema-Task-Manager-Stickers
