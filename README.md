@@ -106,10 +106,10 @@ O design foi desenvolvido no Figma.
 ## 📁 Estrutura do Projeto
 
 Projeto_Integrador_III-B/
-├── 📁 Apresentacao-Projeto
-├── 📁 Documentacao-Projeto
-├── 📁 Gerenciamento-Trello
-├── 📁 Links-Completos
-├── 📁 Proposta-do-Projeto
-├── 📁 Prototipo-Sistema
-└── 📁 Sistema-Task-Manager-Stickers
+--├── 📁 Apresentacao-Projeto
+--├── 📁 Documentacao-Projeto
+--├── 📁 Gerenciamento-Trello
+--├── 📁 Links-Completos
+--├── 📁 Proposta-do-Projeto
+--├── 📁 Prototipo-Sistema
+--└── 📁 Sistema-Task-Manager-Stickers
